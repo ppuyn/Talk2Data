@@ -26,6 +26,18 @@ The app also creates derived views such as:
 - `product_catalog`
 
 The schema is designed to support real analytics questions like revenue trends, customer lifetime value, repeat purchase rate, and product bundle opportunities.
+---
+## How to run
+
+```bash
+cd chat-with-your-data-sql
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+cp .env.example .env
+streamlit run app.py
+```
+---
 
 ## Method
 
@@ -107,17 +119,6 @@ chat-with-your-data-sql/
     ├── nl2sql.py
     ├── insights.py
     └── charts.py
-```
-
-## How to run
-
-```bash
-cd chat-with-your-data-sql
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-cp .env.example .env
-streamlit run app.py
 ```
 
 ## Notes
