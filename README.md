@@ -2,6 +2,8 @@
 
 Ask a natural-language business question, get back the SQL, and see a charted answer from a real SQLite analytics database.
 
+[![Open in Streamlit]([https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://gdp-dashboard-template.streamlit.app/](https://talk2data-7gcvjj7c7vkxmsg4rqbotz.streamlit.app/))
+
 ## Problem
 
 Business users often know the question they want answered, but not SQL. This project bridges that gap:
@@ -10,7 +12,19 @@ Business users often know the question they want answered, but not SQL. This pro
 - SQL generated from the question
 - chart and table returned
 - plain-English insight and business recommendation
+* The schema is designed to support real analytics questions like revenue trends, customer lifetime value, repeat purchase rate, and product bundle opportunities.
 
+## How to run
+
+```bash
+cd chat-with-your-data-sql
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+cp .env.example .env
+streamlit run app.py
+```
+---
 ## Data
 
 This project ships with a synthetic retail analytics database built from four tables:
@@ -24,21 +38,7 @@ The app also creates derived views such as:
 
 - `order_metrics`
 - `product_catalog`
-
-The schema is designed to support real analytics questions like revenue trends, customer lifetime value, repeat purchase rate, and product bundle opportunities.
----
-## How to run
-
-```bash
-cd chat-with-your-data-sql
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-cp .env.example .env
-streamlit run app.py
-```
----
-
+  
 ## Method
 
 The app uses an LLM-backed natural-language-to-SQL planner when an OpenAI API key is available. If the API key is missing, it falls back to deterministic intent templates so the project still runs locally.
