@@ -1,0 +1,10 @@
+venv/
+.env
+__pycache__/
+*.py[cod]
+*.db
+*.sqlite3
+.streamlit/
+.DS_Store
+artifacts/*.png
+artifacts/*.html
