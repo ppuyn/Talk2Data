@@ -2,7 +2,7 @@
 
 Ask a natural-language business question, get back the SQL, and see a charted answer from a real SQLite analytics database.
 
-[![Open in Streamlit]([https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://gdp-dashboard-template.streamlit.app/](https://talk2data-7gcvjj7c7vkxmsg4rqbotz.streamlit.app/))
+[![Open Live Demo in Streamlit]([https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://gdp-dashboard-template.streamlit.app/](https://talk2data-7gcvjj7c7vkxmsg4rqbotz.streamlit.app/))
 
 ## Problem
 
