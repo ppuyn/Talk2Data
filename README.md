@@ -1,4 +1,4 @@
-# Chat with Your Data SQL
+# Talk2Data
 
 Ask a natural-language business question, get back the SQL, and see a charted answer from a real SQLite analytics database.
 
