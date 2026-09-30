@@ -93,13 +93,6 @@ Use the app to identify where to focus growth and retention actions:
 - What is the repeat purchase rate by month?
 - Which channels produce the highest average order value?
 
-## Live demo
-
-Run the app locally and open the live interface here:
-
-- [http://localhost:8501](http://localhost:8501)
-
-If you deploy it to Streamlit Community Cloud or Hugging Face Spaces, replace the link above with the public URL.
 
 ## Repository structure
 
